@@ -9,6 +9,9 @@
 <body>
     <?php include "../layout/nav.php"; ?>
     <h1>tienda</h1>
+<!--contenido  -->
+         
+
     <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
     <?php include "../layout/footer.php"; ?>
 
@@ -17,3 +20,4 @@
       crossorigin="anonymous"></script>
 </body>
 </html>
+
