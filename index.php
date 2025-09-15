@@ -1,3 +1,8 @@
+<?php
+require_once("back/bd/conexion.php");
+$conexion = new conexion;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +22,7 @@
   <div class="container">
 
     <!--navbar-->
-<?php include "layout/nav.php"; ?>
+    <?php include "layout/nav.php"; ?>
 
     <!--carrousel-->
     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
@@ -78,7 +83,7 @@
     <!--boton de whatsapp-->
     <a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a>
     <!--footer-->
-   <?php include "layout/footer.php"; ?>
+    <?php include "layout/footer.php"; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
